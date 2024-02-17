@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/MarcosOliveir4/api-lol/api"
+)
 
 func main() {
 	fmt.Println("API League of Legends")
+	api.Api()
 }
